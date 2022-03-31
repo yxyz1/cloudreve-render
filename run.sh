@@ -171,7 +171,7 @@ TablePrefix = ${DB_TABLEPREFIX}
 EOF
 
 ## 运行
-
-nohup /root/cloudreve/cloudreve -c /root/cloudreve/conf.ini &
 aria2c --conf-path=/etc/aria2/aria2.conf -D
+/root/cloudreve/cloudreve -c /root/cloudreve/conf.ini
+
 
