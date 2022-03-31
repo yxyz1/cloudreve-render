@@ -139,7 +139,7 @@ bt-max-peers=0
 # 分离做种任务
 bt-detach-seed-only=true
 #BT Tracker List ;下载地址：https://github.com/ngosang/trackerslist
-bt-tracker=udp://tracker.coppersurfer.tk:6969/announce,udp://tracker.internetwarriors.net:1337/announce,udp://tracker.opentrackr.org:1337/announce
+bt-tracker=udp://tracker.opentrackr.org:1337/announce,udp://open.tracker.cl:1337/announce,udp://tracker.openbittorrent.com:6969/announce,http://tracker.openbittorrent.com:80/announce,udp://opentracker.i2p.rocks:6969/announce,https://opentracker.i2p.rocks:443/announce
 EOF
 touch /etc/aria2/aria2.session
 chmod 777 /etc/aria2/aria2.session
