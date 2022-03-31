@@ -28,6 +28,3 @@ services:
     - key: DB_TABLEPREFIX
       # value:
       sync: false
-    - key: ARIA2_PORT
-      # value:
-      sync: false
