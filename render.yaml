@@ -3,7 +3,7 @@ services:
     name: cloudreve
     env: docker
     repo: https://github.com/Sakura1943/cloudreve-render.git
-    region: oregon
+    region: Singapore
     plan: free
     healthCheckPath: /
     envVars:
