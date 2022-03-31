@@ -172,6 +172,6 @@ EOF
 
 ## 运行
 
-aria2c --conf-path=/etc/aria2/aria2.conf
+aria2c --conf-path=/etc/aria2/aria2.conf -D
 /root/cloudreve/cloudreve -c /root/cloudreve/conf.ini
 
