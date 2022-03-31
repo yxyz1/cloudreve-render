@@ -13,7 +13,7 @@
 
 本镜像基于 debian:stable-slim
 
-Aria2地址：http://127.0.0.1:${ARIA2_PORT}
+Aria2地址：http://127.0.0.1:6800
 
 Aria2秘钥：123
 
