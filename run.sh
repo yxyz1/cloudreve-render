@@ -78,7 +78,7 @@ rpc-allow-origin-all=true
 rpc-listen-all=true
 # RPC端口, 仅当默认端口被占用时修改
 
-rpc-listen-port=${ARIA2_PORT}
+rpc-listen-port=6800
 # 设置的RPC授权令牌, v1.18.4新增功能, 取代 --rpc-user 和 --rpc-passwd 选项
 rpc-secret=123
 
