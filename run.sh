@@ -172,6 +172,6 @@ EOF
 
 ## 运行
 
-nohup aria2c --conf-path=/etc/aria2/aria2.conf &
-/root/cloudreve/cloudreve -c /root/cloudreve/conf.ini
 
+nohup /root/cloudreve/cloudreve -c /root/cloudreve/conf.ini &
+aria2c --conf-path=/etc/aria2/aria2.conf
