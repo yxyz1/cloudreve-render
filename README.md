@@ -1,5 +1,7 @@
 # Cloudreve Render
 
+## 本仓库是基于[原作者仓库](https://github.com/Sakura1943/cloudreve-render)的fork版本，已更新cloudreve版本至最新版本，此仓库将持续维护。
+
 ## 使用说明
 [使用说明](https://blog.sakunia.tk/2022/03/30/render_cloudreve)
 
