@@ -30,3 +30,12 @@ services:
     - key: DB_TABLEPREFIX
       # value:
       sync: false
+    - key: REDIS_SERVER
+      # value:
+      sync: false
+    - key: REDIS_PASSWORD
+      # value:
+      sync: false
+    - key: REDIS_DB
+      # value:
+      sync: false
