@@ -1,7 +1,7 @@
 {
 	"name": "cloudreve",
 	"description": "Deploy cloudreve on Render.",
-	"repository": "https://github.com/Sakura1943/cloudreve-render",
+	"repository": "https://github.com/Guangsudalao-Stuido/cloudreve-render",
 	"keywords": ["cloudreve"],
 	"website": "https://blog.sakunia.tk/2022/03/30/render_cloudreve",
 	"stack": "container"
