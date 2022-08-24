@@ -23,6 +23,10 @@ Password = ${DB_PASSWORD}
 Host = ${DB_HOST}
 Name = 	${DB_NAME}
 TablePrefix = ${DB_TABLEPREFIX}
+[Redis]
+Server = ${REDIS_SERVER}
+Password = ${REDIS_PASSWORD}
+DB = ${REDIS_DB}
 EOF
 
 ## 运行
