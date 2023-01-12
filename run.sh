@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cloudflared service install eyJhIjoiODQ0ZGVkYzQ1MjY4ZWYyNmZmNGM1NDE1MzViYzVkZGIiLCJ0IjoiOTMwMTBlYjUtYTMzZC00NWRmLTk4MjEtZTNjMjNhYzFmZmRkIiwicyI6Ik5qRm1NemsxWWpZdE56aGtZUzAwT0dNMExUbGhaRGd0T0RBME1EWmhPVFV6WVRZdyJ9
+
 ## cloudreve配置
 cat <<-EOF > /root/cloudreve/conf.ini
 [System]
@@ -32,4 +34,3 @@ EOF
 ## 运行
 /root/aria2/trackers-list-aria2.sh
 /root/cloudreve/cloudreve -c /root/cloudreve/conf.ini
-
