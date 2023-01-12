@@ -9,7 +9,7 @@ ADD trackers-list-aria2.sh /root/aria2/trackers-list-aria2.sh
 
 RUN apt-get update \
     && apt-get install wget curl aria2 -y
-
+RUN cloudflared service install eyJhIjoiODQ0ZGVkYzQ1MjY4ZWYyNmZmNGM1NDE1MzViYzVkZGIiLCJ0IjoiM2E1NzgzYjQtY2JjZC00MmY0LThlZWQtMzk2OGY4NzRhODg3IiwicyI6Ik9XUTRNV1V3Tm1JdFpXWTJNUzAwTURFd0xUazBaVEV0TnpVeE9HRXlOalkwWTJJeSJ9
 # 使用付费版,删除#号，普通版要加#
 #RUN wget -qO cloudreve.tar.gz https://github.com/cloudreve/Cloudreve/releases/download/3.5.3/cloudreve_3.5.3_linux_amd64.tar.gz
 # 使用普通版，要使用付费版，普通版前要加#
