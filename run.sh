@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cloudflared service install &{TOKEN}
+cloudflared service install ${TOKEN}
 
 ## cloudreve配置
 cat <<-EOF > /root/cloudreve/conf.ini
