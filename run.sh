@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cloudflared service install eyJhIjoiODQ0ZGVkYzQ1MjY4ZWYyNmZmNGM1NDE1MzViYzVkZGIiLCJ0IjoiMGQ0OWRhMTYtZDgzNS00NGJlLTgxZjktOTliMTJjNDZiMWEzIiwicyI6IlpEWmlNR0psTmpRdE1UZzROaTAwTmpkbExXSm1OREl0TXpaak5XRmhPRGt6T1dFdyJ9
+cloudflared service install &{TOKEN}
 
 ## cloudreve配置
 cat <<-EOF > /root/cloudreve/conf.ini
