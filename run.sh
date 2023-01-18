@@ -42,9 +42,7 @@ Secure = lse
 max_worker_num = 50
 ; 任务队列中转任务传输时，最大并行协程数
 max_parallel_transfer = 10
-
 ; 中转分片上传失败后重试的最大次数
-
 chunk_retries = 10
 EOF
 
