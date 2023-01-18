@@ -29,6 +29,21 @@ TablePrefix = ${DB_TABLEPREFIX}
 Server = ${REDIS_SERVER}
 Password = ${REDIS_PASSWORD}
 DB = ${REDIS_DB}
+; 跨域配置
+[CORS]
+AllowOrigins = *
+AllowMethods = OPTIONS,GET,POST
+AllowHeaders = *
+AllowCredentials = false
+SameSite = Default
+Secure = lse
+[OptionOverwrite]
+; 任务队列最多并行执行的任务数
+max_worker_num = 50
+; 任务队列中转任务传输时，最大并行协程数
+max_parallel_transfer = 10
+; 中转分片上传失败后重试的最大次数
+chunk_retries = 10
 EOF
 
 ## 运行
